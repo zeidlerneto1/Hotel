@@ -1,0 +1,5 @@
+Flask
+Flask_restful
+flask_sqlalchemy
+pymysql
+email_validator

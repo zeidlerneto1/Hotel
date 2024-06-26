@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>400</height>
+   </rect>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QLabel" name="titulo">
+      <property name="text">
+       <string>Menu Principal</string>
+      </property>
+      <property name="alignment">
+       <set>Qt.Alignment.AlignCenter</set>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font-size: 18pt; font-weight: bold;</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QListWidget" name="frame_lista">
+      <property name="styleSheet">
+       <string notr="true">background-color: #ffffff; selection-background-color: #0078d7; font-size: 12pt;</string>
+      </property>
+      <property name="verticalScrollBarPolicy">
+       <enum>Qt.ScrollBarAlwaysOn</enum>
+      </property>
+      <item>
+       <widget class="QListWidgetItem" name="item0">
+        <property name="text">
+         <string>Cliente</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QListWidgetItem" name="item1">
+        <property name="text">
+         <string>Hóspede</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QListWidgetItem" name="item2">
+        <property name="text">
+         <string>Reserva</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QListWidgetItem" name="item3">
+        <property name="text">
+         <string>Promoção</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QListWidgetItem" name="item4">
+        <property name="text">
+         <string>Tarifa</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QListWidgetItem" name="item5">
+        <property name="text">
+         <string>Serviços Adicionais</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QListWidgetItem" name="item6">
+        <property name="text">
+         <string>Quarto</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QListWidgetItem" name="item7">
+        <property name="text">
+         <string>Feedback</string>
+        </property>
+       </widget>
+      </item>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

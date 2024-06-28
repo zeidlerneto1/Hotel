@@ -1,6 +1,6 @@
 from flask import Flask
 from flask_restful import Api
-from routes.cliente_route import cliente_bp, hospede_bp, reserva_bp, quarto_bp, servicos_adicionais_bp, tarifa_bp, feedback_bp,promocao_bp
+from routes.routes import cliente_bp, hospede_bp, reserva_bp, quarto_bp, servicos_adicionais_bp, tarifa_bp, feedback_bp,promocao_bp
 from models.base import db
 
 def create_app() -> Flask:
